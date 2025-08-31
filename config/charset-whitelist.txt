@@ -1,0 +1,28 @@
+# Whitelist of allowed characters
+# Format: Either single character, Unicode code point (U+XXXX), or range (U+XXXX-U+YYYY)
+# Lines starting with # are comments
+
+# Basic ASCII printable characters
+U+0020-U+007E
+
+# Common control characters
+U+0009
+U+000A
+U+000D
+
+# Extended ASCII for international support (optional)
+# Uncomment the following lines to allow extended ASCII
+# U+00A0-U+00FF
+
+# Common currency symbols (optional)
+# U+0024
+# U+00A2
+# U+00A3
+# U+00A5
+# U+20AC
+
+# Common punctuation (already included in basic ASCII)
+# Explicitly listed for clarity:
+# ! " # $ % & ' ( ) * + , - . /
+# : ; < = > ? @
+# [ \ ] ^ _ ` { | } ~

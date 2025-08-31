@@ -1,0 +1,68 @@
+# Blacklist of dangerous words/phrases
+# One entry per line, case-insensitive matching
+# Lines starting with # are comments
+
+# Direct instruction manipulation
+ignore previous instructions
+ignore all instructions
+disregard instructions
+forget everything
+system prompt
+override instructions
+bypass safety
+jailbreak
+
+# Role manipulation
+you are now
+act as
+pretend to be
+roleplay as
+system:
+assistant:
+human:
+user:
+
+# Command injection attempts
+execute command
+run script
+eval
+exec
+os.system
+subprocess
+shell_exec
+
+# Prompt engineering
+in conclusion
+to summarize
+tldr
+however
+but actually
+correction
+
+# Credential harvesting
+password
+api key
+api_key
+secret key
+private key
+access token
+bearer token
+auth token
+
+# Social engineering
+urgent
+immediate action required
+verify your account
+suspended account
+click here
+act now
+limited time
+
+# Data exfiltration
+list all
+show all
+dump database
+select * from
+print all
+output everything
+reveal all

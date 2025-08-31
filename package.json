@@ -1,0 +1,40 @@
+{
+  "name": "agentic-browser-security",
+  "version": "1.0.0",
+  "description": "Security pipeline for processing untrusted web content for AI agents",
+  "main": "process_page.js",
+  "scripts": {
+    "test": "node test/test_pipeline.js",
+    "process": "node process_page.js",
+    "clean": "node markdown_clean_script.js",
+    "pipeline": "npm run process | npm run clean"
+  },
+  "keywords": [
+    "ai",
+    "security",
+    "web-scraping",
+    "sanitization",
+    "cybersecurity",
+    "agentic"
+  ],
+  "author": "HxHippy <b@kief.studio>",
+  "license": "MIT",
+  "dependencies": {
+    "jsdom": "^22.1.0",
+    "turndown": "^7.1.2"
+  },
+  "devDependencies": {
+    "jest": "^29.6.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HxHippy/agentic-browser-security-concept.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HxHippy/agentic-browser-security-concept/issues"
+  },
+  "homepage": "https://github.com/HxHippy/agentic-browser-security-concept#readme"
+}

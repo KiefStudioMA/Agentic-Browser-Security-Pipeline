@@ -1,0 +1,38 @@
+#Nonsense
+NOUPLOAD/
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# Output files
+output/
+temp/
+
+# Logs
+*.log
+logs/
+
+# Test artifacts
+test_*.json
+demo_input.json
+custom_*.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Environment files
+.env
+.env.local
