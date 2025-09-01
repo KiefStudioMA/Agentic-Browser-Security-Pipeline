@@ -31,10 +31,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HxHippy/agentic-browser-security-concept.git"
+    "url": "git+https://github.com/KiefStudioMA/Agentic-Browser-Security-Pipeline.git"
   },
   "bugs": {
-    "url": "https://github.com/HxHippy/agentic-browser-security-concept/issues"
+    "url": "https://github.com/KiefStudioMA/Agentic-Browser-Security-Pipeline/issues"
   },
-  "homepage": "https://github.com/HxHippy/agentic-browser-security-concept#readme"
+  "homepage": "https://github.com/KiefStudioMA/Agentic-Browser-Security-Pipeline#readme"
 }
